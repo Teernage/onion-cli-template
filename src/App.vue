@@ -4,12 +4,12 @@
 
 <script lang="ts">
 export default {
-  name: 'App'
-}
+  name: "App",
+};
 </script>
 
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { RouterView } from "vue-router";
 </script>
 
 <style>
@@ -20,6 +20,6 @@ body {
 }
 
 #app {
-  width: 100%;
+  width: 200px;
 }
 </style>

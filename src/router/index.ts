@@ -1,17 +1,17 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeCom from '@/views/Home/HomeCom.vue'
+import { createRouter, createWebHashHistory } from "vue-router";
+import HomeCom from "@/views/Home/HomeCom.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: HomeCom
-  }
-]
+    path: "/",
+    name: "Home",
+    component: HomeCom,
+  },
+];
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
