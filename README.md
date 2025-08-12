@@ -1,4 +1,4 @@
-# newtab
+# popup
 
 本项目是一个基于 Vue 3 和 Vite 开发的 Chrome 插件，用于自定义侧边栏。通过该插件，用户可以在侧边栏中展示个性化内容，提高浏览体验。
 
@@ -23,7 +23,8 @@ pnpm install
 
 ## 项目结构
 
-CrxFile (首次打包插件后生成)
+CrxFile
+
 ├── packageName.crx # crx 文件
 ├── packageName.pem # 证书
 ├── output.log # crx 文件的详细信息
