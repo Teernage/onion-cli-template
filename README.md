@@ -23,8 +23,7 @@ pnpm install
 
 ## 项目结构
 
-CrxFile
-
+CrxFile (首次打包插件后生成)
 ├── packageName.crx # crx 文件
 ├── packageName.pem # 证书
 ├── output.log # crx 文件的详细信息

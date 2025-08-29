@@ -6,8 +6,6 @@
 
 <style scoped lang="less">
 .container {
-  width: 200px;
-  height: 200px;
   padding: 10px;
   margin: auto;
   text-align: center;
