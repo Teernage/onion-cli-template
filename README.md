@@ -17,6 +17,10 @@
 ## 环境要求
 
 node 版本 20
+pnpm 版本 8.x 或更高版本
+
+如果尚未安装pnpm,请使用以下命令安装：
+npm install -g pnpm@8
 
 安装依赖：
 pnpm install
