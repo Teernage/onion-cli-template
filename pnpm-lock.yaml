@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   axios:
-    specifier: ^1.8.2
-    version: 1.11.0
+    specifier: ^1.13.5
+    version: 1.13.5
   chalk:
     specifier: ^4.1.2
     version: 4.1.2
@@ -87,7 +87,7 @@ devDependencies:
     version: 2.4.6
   axios-mock-adapter:
     specifier: ^2.0.0
-    version: 2.1.0(axios@1.11.0)
+    version: 2.1.0(axios@1.13.5)
   eslint:
     specifier: ^8.57.0
     version: 8.57.1
@@ -1020,8 +1020,8 @@ packages:
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
     dev: true
 
-  /@sxzz/popperjs-es@2.11.7:
-    resolution: {integrity: sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==}
+  /@sxzz/popperjs-es@2.11.8:
+    resolution: {integrity: sha512-wOwESXvvED3S8xBmcPWHs2dUuzrE4XiZeFu7e1hROIJkm02a49N120pmOXxY33sBb6hArItm5W5tcg1cBtV+HQ==}
     dev: false
 
   /@testing-library/dom@9.3.4:
@@ -1744,6 +1744,11 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  /ansi-styles@6.2.3:
+    resolution: {integrity: sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==}
+    engines: {node: '>=12'}
+    dev: true
+
   /anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
@@ -1904,21 +1909,21 @@ packages:
       possible-typed-array-names: 1.1.0
     dev: true
 
-  /axios-mock-adapter@2.1.0(axios@1.11.0):
+  /axios-mock-adapter@2.1.0(axios@1.13.5):
     resolution: {integrity: sha512-AZUe4OjECGCNNssH8SOdtneiQELsqTsat3SQQCWLPjN436/H+L9AjWfV7bF+Zg/YL9cgbhrz5671hoh+Tbn98w==}
     peerDependencies:
       axios: '>= 0.17.0'
     dependencies:
-      axios: 1.11.0
+      axios: 1.13.5
       fast-deep-equal: 3.1.3
       is-buffer: 2.0.5
     dev: true
 
-  /axios@1.11.0:
-    resolution: {integrity: sha512-1Lx3WLFQWm3ooKDYZD1eXmoGO9fxYQjrycfHFC8P0sCfQVXyROp0p9PFWBehewBOdCwHc+f/b8I0fMto5eSfwA==}
+  /axios@1.13.5:
+    resolution: {integrity: sha512-cz4ur7Vb0xS4/KUN0tPWe44eqxrIu31me+fbang3ijiNscE129POzipJJA6zniq2C/Z6sJCjMimjS8Lc/GAs8Q==}
     dependencies:
       follow-redirects: 1.15.11
-      form-data: 4.0.4
+      form-data: 4.0.5
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -2550,7 +2555,7 @@ packages:
       '@ctrl/tinycolor': 3.6.1
       '@element-plus/icons-vue': 2.3.2(vue@3.5.20)
       '@floating-ui/dom': 1.7.4
-      '@popperjs/core': /@sxzz/popperjs-es@2.11.7
+      '@popperjs/core': /@sxzz/popperjs-es@2.11.8
       '@types/lodash': 4.17.20
       '@types/lodash-es': 4.17.12
       '@vueuse/core': 9.13.0(vue@3.5.20)
@@ -3286,6 +3291,17 @@ packages:
 
   /form-data@4.0.4:
     resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
+    engines: {node: '>= 6'}
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
+      mime-types: 2.1.35
+    dev: true
+
+  /form-data@4.0.5:
+    resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
     engines: {node: '>= 6'}
     dependencies:
       asynckit: 0.4.0
@@ -4244,7 +4260,7 @@ packages:
       ansi-escapes: 7.0.0
       cli-cursor: 5.0.0
       slice-ansi: 7.1.0
-      strip-ansi: 7.1.0
+      strip-ansi: 7.1.2
       wrap-ansi: 9.0.0
     dev: true
 
@@ -5195,7 +5211,7 @@ packages:
     resolution: {integrity: sha512-FC+lgizVPfie0kkhqUScwRu1O/lF6NOgJmlCgK+/LYxDCTk8sGelYaHDhFcDN+Sn3Cv+3VSa4Byeo+IMCzpMgQ==}
     engines: {node: '>=12'}
     dependencies:
-      ansi-styles: 6.2.1
+      ansi-styles: 6.2.3
       is-fullwidth-code-point: 4.0.0
     dev: true
 
@@ -5203,7 +5219,7 @@ packages:
     resolution: {integrity: sha512-bSiSngZ/jWeX93BqeIAbImyTbEihizcwNjFoRUIY/T1wWQsfsm2Vw1agPKylXvQTU7iASGdHhyqRlqQzfz+Htg==}
     engines: {node: '>=18'}
     dependencies:
-      ansi-styles: 6.2.1
+      ansi-styles: 6.2.3
       is-fullwidth-code-point: 5.0.0
     dev: true
 
@@ -5268,7 +5284,7 @@ packages:
     dependencies:
       emoji-regex: 10.5.0
       get-east-asian-width: 1.3.0
-      strip-ansi: 7.1.0
+      strip-ansi: 7.1.2
     dev: true
 
   /string.prototype.trim@1.2.10:
@@ -5324,6 +5340,13 @@ packages:
 
   /strip-ansi@7.1.0:
     resolution: {integrity: sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      ansi-regex: 6.2.0
+    dev: true
+
+  /strip-ansi@7.1.2:
+    resolution: {integrity: sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==}
     engines: {node: '>=12'}
     dependencies:
       ansi-regex: 6.2.0
@@ -6057,9 +6080,9 @@ packages:
     resolution: {integrity: sha512-G8ura3S+3Z2G+mkgNRq8dqaFZAuxfsxpBB8OCTGRTCtp+l/v9nbFNmCUP1BZMts3G1142MsZfn6eeUKrr4PD1Q==}
     engines: {node: '>=18'}
     dependencies:
-      ansi-styles: 6.2.1
+      ansi-styles: 6.2.3
       string-width: 7.2.0
-      strip-ansi: 7.1.0
+      strip-ansi: 7.1.2
     dev: true
 
   /wrappy@1.0.2:
